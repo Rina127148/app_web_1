@@ -1,25 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <title>Лабораторная работа</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <title>Отчёт по лабораторной работе</title>
+    <style>
+        body {
+            background-color: #b2d8c6;  /* грязно-мятный фон */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c5e3f;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #2c5e3f;
+            border-bottom: 2px solid #b2d8c6;
+            padding-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Отчет по лабораторной работе</h1>
-    
-    <h2>Задание 2. Результат ping kubsu.ru</h2>
-    <img src="ping.png" width="700">
-    
-    <h2>Задание 3. nslookup для kubsu.ru</h2>
-    <img src="nslookup_kubsu.png" width="700">
-    <img src="nslookup_mx_kubsu.png" width="700">
-    
-    <h2>Задание 3. nslookup для kubsu-dev.ru</h2>
-    <img src="nslookup_dev.png" width="700">
-    <img src="nslookup_mx_dev.png" width="700">
-    
-    <h2>Задание 4. whois даты регистрации</h2>
-    <img src="whois_kubsu.png" width="700">
-    <img src="whois_dev.png" width="700">
+    <div class="container">
+        <h1>Отчёт по лабораторной работе</h1>
+
+        <h2>1) ping kubsu.ru</h2>
+        <img src="ping.png" alt="ping result">
+
+        <h2>2) nslookup kubsu.ru (A-запись)</h2>
+        <img src="nslookup_kubsu.png" alt="nslookup A kubsu.ru">
+
+        <h2>3) nslookup kubsu.ru (MX-записи)</h2>
+        <img src="nslookup_mx_kubsu.png" alt="nslookup MX kubsu.ru">
+
+        <h2>4) nslookup kubsu-dev.ru (A-запись)</h2>
+        <img src="nslookup_dev.png" alt="nslookup A kubsu-dev.ru">
+
+        <h2>5) nslookup kubsu-dev.ru (MX-записи)</h2>
+        <img src="nslookup_mx_dev.png" alt="nslookup MX kubsu-dev.ru">
+
+        <h2>6) whois kubsu.ru (дата регистрации)</h2>
+        <img src="whois_kubsu.png" alt="whois kubsu.ru">
+
+        <h2>7) whois kubsu-dev.ru (дата регистрации)</h2>
+        <img src="whois_dev.png" alt="whois kubsu-dev.ru">
+    </div>
 </body>
 </html>
