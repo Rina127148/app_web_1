@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Лабораторная работа</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>Отчет по лабораторной работе</h1>
+    
+    <h2>Задание 2. Результат ping kubsu.ru</h2>
+    <img src="ping.png" width="700">
+    
+    <h2>Задание 3. nslookup для kubsu.ru</h2>
+    <img src="nslookup_kubsu.png" width="700">
+    <img src="nslookup_mx_kubsu.png" width="700">
+    
+    <h2>Задание 3. nslookup для kubsu-dev.ru</h2>
+    <img src="nslookup_dev.png" width="700">
+    <img src="nslookup_mx_dev.png" width="700">
+    
+    <h2>Задание 4. whois даты регистрации</h2>
+    <img src="whois_kubsu.png" width="700">
+    <img src="whois_dev.png" width="700">
+</body>
+</html>
